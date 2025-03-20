@@ -6,6 +6,7 @@ A Closed-Loop Hybrid Discovery System of Type I Photosensitizers for Hypoxic Tum
 
 ## Workflow
 ![workflow](https://github.com/user-attachments/assets/67987638-caf8-4aef-850a-60bdb39c2fa7)
+![workflow](https://github.com/user-attachments/assets/8628ebff-cd4a-47e6-b9c9-85494c16c776)
 
 ## Requirements
 - Pyhton=3.11 

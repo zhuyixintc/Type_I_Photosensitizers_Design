@@ -5,9 +5,6 @@ The model determines whether a molecule is a Type I photosensitizer by analyzing
 A Closed-Loop Hybrid Discovery System of Type I Photosensitizers for Hypoxic Tumor Therapy
 
 ## Workflow
-![workflow](https://github.com/user-attachments/assets/67987638-caf8-4aef-850a-60bdb39c2fa7)
-![workflow](https://github.com/user-attachments/assets/8628ebff-cd4a-47e6-b9c9-85494c16c776)
-![workflow](https://github.com/user-attachments/assets/e701c6f9-ab0a-421c-b26d-24a899ee20d3)
 ![workflow](https://github.com/user-attachments/assets/740fe44d-b4c8-4589-9939-d518906a6665)
 
 ## Requirements

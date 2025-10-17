@@ -11,8 +11,3 @@ A Closed-Loop Hybrid Discovery System of Type I Photosensitizers for Hypoxic Tum
 - Pyhton=3.11 
 - Scikit-Learn=1.3.0
 - XGBoost=1.7.6
-
-## UI Download
-Baidu Drive: 
-- Link：https://pan.baidu.com/s/1Fy8BsXL-1tcP-cK2vw-5GA 
-- Password：7777

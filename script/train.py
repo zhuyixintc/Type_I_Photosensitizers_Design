@@ -11,19 +11,6 @@ from sklearn.neural_network import MLPClassifier
 from xgboost import XGBClassifier
 import pickle
 
-# for reproducibility
-np.random.seed(seed)
-
-# load dataset
-df = pd.read_csv('./your_data')
-X = df.drop(['SMILES', 'Label'], axis=1)
-y = df['Label']
-
-# balance the dataset
-smote = SMOTE(random_state=seed)
-X_bal, y_bal = smote.fit_resample(X, y)
-X_train_raw, X_test_raw, y_train, y_test = train_test_split(X_bal, y_bal, test_size=0.2, random_state=seed)
-
 # standardize the features
 scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train_raw)
@@ -81,8 +68,6 @@ best_model = best_models[best_model_name]
 # evaluate the best model on the test dataset
 y_pred = best_model.predict(X_test)
 test_accuracy = accuracy_score(y_test, y_pred)
-test_roc_auc_score = roc_auc_score(y_test, y_pred)
-test_f1_score = f1_score(y_test, y_pred)
 
 # save model and scaler
 with open('./your_path', 'wb') as file:

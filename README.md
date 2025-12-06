@@ -1,5 +1,5 @@
 # Type_I_Photosensitizers_Design
-The model determines whether a molecule is a Type I photosensitizer by analyzing its excited-state properties. It employs machine learning techniques to achieve accurate and reliable classification.
+We employed a standard application of supervised learning models, using GridSearchCV for hyperparameter optimization and model training. As this work primarily focuses on the materials design and underlying photophysical mechanisms, the machine learning component is intended as a preliminary exploratory study rather than the central contribution of the paper.
 
 ## Paper
 A Closed-Loop Hybrid Discovery System of Type I Photosensitizers for Hypoxic Tumor Therapy

@@ -11,3 +11,5 @@ A Closed-Loop Hybrid Discovery System of Type I Photosensitizers for Hypoxic Tum
 - Pyhton=3.11 
 - Scikit-Learn=1.3.0
 - XGBoost=1.7.6
+
+The repository currently contains partial data and code. The complete dataset and full code used will be made publicly available upon publication.

@@ -39,7 +39,7 @@ models = {
     'SVM': SVC(random_state=seed, probability=True),
     'NN': MLPClassifier(random_state=seed, max_iter=1000),
     'RF': RandomForestClassifier(random_state=seed),
-    'XGB': XGBClassifier(random_state=seed),
+    'XGBoost': XGBClassifier(random_state=seed),
 }
 
 params = {
@@ -59,7 +59,7 @@ params = {
         'n_estimators': [100, 200, 300, 400, 500],
         'max_depth': [2, 4, 6, 8, 10],
     },
-    'XGB': {
+    'XGBoost': {
         'n_estimators': [100, 200, 300, 400, 500],
         'learning_rate': [0.001, 0.01, 0.1, 1]
     },

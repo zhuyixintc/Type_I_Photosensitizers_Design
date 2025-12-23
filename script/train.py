@@ -39,16 +39,30 @@ models = {
     'SVM': SVC(random_state=seed, probability=True),
     'NN': MLPClassifier(random_state=seed, max_iter=1000),
     'RF': RandomForestClassifier(random_state=seed),
-    'XGBoost': XGBClassifier(random_state=seed),
+    'XGB': XGBClassifier(random_state=seed),
 }
 
-# model parameters
 params = {
-    'KNN': {},
-    'SVM': {},
-    'NN': {},
-    'RF': {},
-    'XGBoost': {},
+    'KNN': {
+        'n_neighbors': [2, 4, 6, 8, 10],
+        'metric': ['euclidean', 'manhattan'],
+    },
+    'SVM': {
+        'kernel': ['rbf', 'poly', 'sigmoid'],
+        'C': [0.1, 1, 10, 100],
+    },
+    'NN': {
+        'hidden_layer_sizes': [(50,), (100,), (50, 50), (100, 100)],
+        'alpha': [0.0001, 0.001, 0.01, 0.1],
+    },
+    'RF': {
+        'n_estimators': [100, 200, 300, 400, 500],
+        'max_depth': [2, 4, 6, 8, 10],
+    },
+    'XGB': {
+        'n_estimators': [100, 200, 300, 400, 500],
+        'learning_rate': [0.001, 0.01, 0.1, 1]
+    },
 }
 
 best_models = {}

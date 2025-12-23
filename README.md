@@ -1,5 +1,5 @@
 # Type_I_Photosensitizers_Design
-We employed a standard application of supervised learning models. As this work primarily focuses on the materials design and underlying photophysical mechanisms, the machine learning component is intended as a preliminary exploratory study rather than the central contribution of the paper.
+We ran a simple supervised learning analysis using standard scikit-learn models. Since our main goal is materials design and understanding the photophysics, we mainly use the data we already have to see what trends show up, especially patterns in the excited-state properties, rather than treating the machine learning part as the main contribution.
 
 ## Paper
 A Closed-Loop Hybrid Discovery System of Type I Photosensitizers for Hypoxic Tumor Therapy

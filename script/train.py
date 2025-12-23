@@ -71,8 +71,6 @@ best_model = best_models[best_model_name]
 # evaluate the best model on the test dataset
 y_pred = best_model.predict(X_test)
 test_accuracy = accuracy_score(y_test, y_pred)
-test_roc_auc_score = roc_auc_score(y_test, y_pred)
-test_f1_score = f1_score(y_test, y_pred)
 
 # save model and scaler
 with open('./your_path', 'wb') as file:
